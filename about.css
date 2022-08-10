@@ -1,0 +1,109 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: 'Sofia', sans-serif;
+  text-align: center;
+  text-shadow: 0 1px 0px green, 1px 0 0px lightgreen, 1px 2px 1px green, 2px 1px 1px lightgreen, 2px 3px 2px green, 3px 2px 2px lightgreen, 3px 4px 2px green, 4px 3px 3px lightgreen, 4px 5px 3px green, 5px 4px 2px lightgreen, 5px 6px 2px green, 6px 5px 2px lightgreen, 6px 7px 1px green, 7px 6px 1px lightgreen, 7px 8px 0px green, 8px 7px 0px lightgreen;
+  font-weight: heavy;
+  padding-top: 2.2em;
+  padding-bottom: 0.2em;
+}
+
+h2 {
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 0 1px 0px lightgreen, 1px 0 0px #FFFCD1, 1px 2px 1px lightgreen, 2px 1px 1px #FFFCD1, 2px 3px 2px lightgreen, 3px 2px 2px #FFFCD1, 3px 4px 2px lightgreen, 4px 3px 3px #FFFCD1, 4px 5px 3px lightgreen, 5px 4px 2px #FFFCD1, 5px 6px 2px lightgreen, 6px 5px 2px #FFFCD1, 6px 7px 1px lightgreen, 7px 6px 1px #FFFCD1, 7px 8px 0px lightgreen, 8px 7px 0px #FFFCD1;
+  font-weight: light;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+
+
+
+header {
+  background: #fff;
+}
+
+
+.container{
+  padding-top: 60px;
+  display:flex;
+  align-items:center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom:100px;
+}
+
+.img {
+  max-width: 10%;
+}
+
+.img1txt
+{
+  text-align: justify;
+  font-family: 'Dosis';
+  color: white;
+  font-size: 20px;
+  padding-left: 100px
+}
+
+
+.container2{
+  padding-top: 60px;
+  display:flex;
+  align-items:center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom:100px;
+}
+
+
+.img2txt
+{
+  text-align: justify;
+  font-family: 'Dosis';
+  color: white;
+  font-size: 20px;
+  padding-left: 100px
+}
+
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0.5em;
+  background-color: white;
+}
+
+li {
+  display: inline;
+  font-family: 'Sofia', sans-serif;
+  font-size: 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: darkgreen;
+  text-shadow: 0 1px 0px lightgreen, 1px 0 0px lightgreen, 1px 2px 1px green, 2px 1px 1px lightgreen, 2px 3px 2px green, 3px 2px 2px lightgreen, 3px 4px 2px green, 4px 3px 3px lightgreen, 4px 5px 3px green, 5px 4px 2px lightgreen, 5px 6px 2px green, 6px 5px 2px lightgreen, 6px 7px 1px green, 7px 6px 1px lightgreen, 7px 8px 0px green, 8px 7px 0px lightgreen;
+  font-size: 1.3em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: lightgreen;
+}
